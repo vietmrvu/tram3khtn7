@@ -618,6 +618,10 @@ animation-iteration-count: infinite;
   animation-duration: 4s;
 
 }
+img.car1::before {
+    content: "30 km/h"
+
+}
 img.car2 {
     width: 240px;
     position:  relative;
@@ -628,6 +632,10 @@ animation-iteration-count: infinite;
   animation-duration: 2s;
 
 }
+img.car2::before {
+    content: "50 km/h"
+
+}
 img.car3 {
     width: 240px;
     position:  relative;
@@ -636,6 +644,10 @@ img.car3 {
 animation-iteration-count: infinite;
 
   animation-duration: 1s;
+
+}
+img.car3::before {
+    content: "60 km/h"
 
 }
 /*img.car:hover {
