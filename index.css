@@ -616,43 +616,83 @@ img.car1 {
 animation-iteration-count: infinite;
 
   animation-duration: 4s;
-
+z-index: 3;
 }
-img.car1::before {
-    content: "30 km/h";
-    color: white
 
-}
+
 img.car2 {
     width: 240px;
     position:  relative;
   animation-name: example;
   position: relative;
 animation-iteration-count: infinite;
-
+z-index: 3;
   animation-duration: 2s;
 
 }
-img.car2::before {
-    content: "50 km/h";
-    color: white
-}
+
 img.car3 {
     width: 240px;
     position:  relative;
   animation-name: example;
   position: relative;
 animation-iteration-count: infinite;
-
+z-index: 3;
   animation-duration: 1s;
 
 }
-img.car3::before {
-    content: "60 km/h";
-    color: white
 
-}
 /*img.car:hover {
     left:  100px ;
 } */
+.imgcar {
+  position: relative;
+  text-align: center;
+}
+.centered1 {
+/*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  animation-name: example;
+  position: relative;
+animation-iteration-count: infinite;
+z-index: 4;
+  animation-duration: 4s;
+     display:block;
+   
+    top: -47px;
+    margin-left: 33px;
+}
 
+.centered2 {
+/*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  animation-name: example;
+  position: relative;
+animation-iteration-count: infinite;
+z-index: 4;
+  animation-duration: 2s;
+     display:block;
+   
+    top: -47px;
+    margin-left: 33px;
+}
+.centered3 {
+/*  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);*/
+  animation-name: example;
+  position: relative;
+animation-iteration-count: infinite;
+z-index: 4;
+   animation-duration: 1s;
+   display:block;
+
+    top: -47px;
+    margin-left: 33px;
+
+}
